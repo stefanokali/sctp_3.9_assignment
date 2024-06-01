@@ -2,11 +2,11 @@ package sg.edu.ntu.assignment39310;
 
 public class Product {
     String id;
-    String Name;
+    String name;
 
     public Product(String id, String name) {
         this.id = id;
-        Name = name;
+        this.name = name;
     }
 
     public String getId() {
@@ -18,11 +18,11 @@ public class Product {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     
